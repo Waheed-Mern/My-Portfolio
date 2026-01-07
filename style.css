@@ -45,7 +45,15 @@ a:active, button:active{
 img{
     margin-top: 10px;
     margin-bottom: 10px;
-    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+}
+fieldset{
+    margin: auto;
+    padding: auto;
+}
+.label {
+    display: inline-block;
 }
 form>div{
     margin-bottom: 10px;
@@ -89,4 +97,5 @@ iframe{
     font-size: 16px;
     line-height: 1.2;
 }
+
 
