@@ -52,9 +52,6 @@ fieldset{
     margin: 15px;
     padding: 10px;
 }
-.client, .recruiter, .student{
-    display: block;
-}
 .label {
     display: inline-block;
     font-weight: bold;
@@ -101,6 +98,7 @@ iframe{
     font-size: 16px;
     line-height: 1.2;
 }
+
 
 
 
