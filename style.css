@@ -93,13 +93,14 @@ iframe{
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-    font-weight: bold;
+    
     padding: 5px;
 }
 .comment{
     font-size: 16px;
     line-height: 1.2;
 }
+
 
 
 
