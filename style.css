@@ -89,7 +89,7 @@ iframe{
     margin-bottom: 10px;
 }
 .checkbox{
-    display: inline-block;
+    display: block;
     margin-top: 10px;
     font-weight: bold;
     padding: 5px;
@@ -98,6 +98,7 @@ iframe{
     font-size: 16px;
     line-height: 1.2;
 }
+
 
 
 
