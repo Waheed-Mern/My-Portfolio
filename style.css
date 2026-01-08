@@ -81,10 +81,10 @@ form>div{
     box-sizing: border-box;
     width: 100%;
 }
-.my, .youtube{
+.youtube{
     width: 100%;
     aspect-ratio: 16 / 9;
-    
+    margin-bottom: 10px;
 }
 .checkbox{
     display: flex;
@@ -99,9 +99,8 @@ form>div{
     line-height: 1.2;
 }
 .myvideo{
-    aspect-ratio: 16 / 9;
-    width: 100%;
-
+     margin-bottom: 10px;
+}
 
 
 
