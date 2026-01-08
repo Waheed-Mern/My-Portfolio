@@ -60,11 +60,6 @@ form>div{
     margin-bottom: 10px;
     /* padding: 5px; */
 }
-iframe{
-    aspect-ratio: "16 / 9";
-    width: 100%;
-    border: none;
-}
 .about{
     color:rgb(9, 16, 109);
     font-size: 36px;
@@ -88,6 +83,9 @@ iframe{
 }
 .my, .youtube{
     margin-bottom: 10px;
+    width: 100%;
+    height: "auto";
+    
 }
 .checkbox{
     display: flex;
@@ -101,6 +99,7 @@ iframe{
     font-size: 16px;
     line-height: 1.2;
 }
+
 
 
 
