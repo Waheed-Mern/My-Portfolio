@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body{
     background-color: lightgrey;
@@ -80,3 +81,87 @@ fieldset{
     margin-bottom: 15px;
     padding: 10px;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    background-color: lightgrey;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    line-height: 1.6;
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+caption, table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+h1, h2{
+    color: darkblue;
+}
+button{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: darkgoldenrod;
+    transition: 0.3s;
+}
+fieldset{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+.label{
+    display: block;
+    font-weight: bold;
+}
+.username, .phone, .email, .comment{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.checkbox{
+    margin-top: 15px;
+}
+.exercise{
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid blue;
+}
+.whatsapp, .linkedin{
+    display: block;
+    text-decoration: none;
+}
+.linkedin:hover{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+}
+.select{
+    padding: 15px;
+}
+.whatsapp:hover{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+}
+.file{
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+>>>>>>> 5868de3580165a73474b77ce6f2741f297eecc51
