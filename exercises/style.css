@@ -1,0 +1,12 @@
+div>p{
+    background-color: gray;
+    color: white;
+}
+p:first-child{
+    background-color: green;
+    color: white;
+}
+p:nth-child(3){
+    background-color: orange;
+    color: black;
+}
