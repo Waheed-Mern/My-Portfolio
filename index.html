@@ -125,6 +125,7 @@
             required
             placeholder="Enter Your Phone"
             pattern="[+]?[0-9]{10,15}"
+            autocomplete="tel"
           />
         </div>
         <div>
@@ -136,6 +137,7 @@
             id="email"
             placeholder="email"
             required
+            autocomplete="email"
           />
         </div>
         <div>
@@ -173,7 +175,7 @@
           <input type="checkbox" name="terms" id="terms" value="yes" required />
           <label for="terms">I agree to the terms and conditions</label>
         </div>
-        <div>
+        <div id="button">
           <button>Submit</button>
         </div>
       </form>
