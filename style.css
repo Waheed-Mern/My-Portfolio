@@ -24,6 +24,9 @@ button{
     background-color: darkblue;
     color: white;
     border: none;
+    height: 30px;
+    width: auto;
+    font-size: large;
 }
 button:hover{
     background-color: darkgoldenrod;
@@ -35,7 +38,7 @@ fieldset{
     border: 2px solid blue;
 }
 #button{
-    text-indent: 142px;
+    text-indent: 150px;
 }
 .label{
     display: block;
