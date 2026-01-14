@@ -16,6 +16,7 @@ caption, table, th, td{
 }
 h1, h2{
     color: darkblue;
+    text-align: center;
 }
 button{
     display: inline-block;
@@ -59,6 +60,7 @@ fieldset{
     font-weight: bold;
 }
 .image{
+    display: block;
     max-width: 100%;
     height: auto;
     border: 2px solid blue;
