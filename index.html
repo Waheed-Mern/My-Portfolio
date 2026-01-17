@@ -21,7 +21,8 @@
 </head>
   <body>
     <main>
-      <h1>about</h1>
+      <h1>About</h1>
+      <div>
       <p>
         Waheed is a MERN stack developer from Pakistan, delivering robust
         full‑stack solutions using MongoDB, Express.js, React, and Node.js. He
@@ -34,9 +35,11 @@
         maintainable architecture, he transforms complex requirements into
         reliable web applications for startups and enterprises.
       </p>
+      </div>
       <div class="exercise">
         <a target="_blank" href="exercises/exercise1">My Exercise</a>
       </div>
+      <div>
       <img
         class="image"
         src="image.webp"
@@ -44,11 +47,15 @@
         width="396px"
         height="509px"
       />
+      </div>
+      <div>
       <h2>Education</h2>
       <ul>
         <li>Adp IT (Information Technology)</li>
         <li>MERN Stack Web Development Specialist - In Progress</li>
       </ul>
+      </div>
+      <div>
       <h2>MERN Stack Services</h2>
       <ol>
         <li>Building Full-Stack Web Applications (MERN)</li>
@@ -56,6 +63,8 @@
         <li>Backend API Development using Node.js & Express</li>
         <li>Database Management with MongoDB</li>
       </ol>
+      </div>
+      <div class="table">
       <table>
         <caption>
           <h2>Skills and Learning Status</h2>
@@ -90,6 +99,7 @@
           </tr>
         </tbody>
       </table>
+      </div>
       <h2>Contact Me</h2>
       <div>
         <a class="whatsapp" target="_blank" href="https://wa.me/923154200868"
@@ -166,10 +176,9 @@
             required
           ></textarea>
         </div>
-        <div>
-          <label class="label" for="file">Choose File:</label>
+        <div class="file">
+          <label for="file">Choose File:</label>
           <input
-            class="file"
             type="file"
             name="file"
             id="file"
@@ -177,14 +186,16 @@
             multiple
           />
         </div>
-        <label class="label" for="services">What are you looking for?</label>
+        <div class="services">
+        <label for="services">What are you looking for?</label>
         <select name="services" id="services">
-          <option class="select" value="none">-- Please Select --</option>
+          <option value="none">-- Please Select --</option>
           <option value="frontend">Frontend Development</option>
           <option value="mern">Full Stack MERN Project</option>
           <option value="uiux">UI/UX Design Advice</option>
           <option value="collab">Collaboration / Hiring</option>
         </select>
+        </div>
         <div class="checkbox">
           <input type="checkbox" name="terms" id="terms" value="yes" required />
           <label for="terms">I agree to the terms and conditions</label>
